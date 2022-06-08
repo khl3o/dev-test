@@ -17,11 +17,10 @@ const getChange = (amount) => {
 
   // once we have a multiple of 5, get the best combinaison of 10/5
 
-  bill_10 = Math.floor(remainingAmount/10)
+  bill_10 = Math.floor(remainingAmount/10);
   remainingAmount = remainingAmount - bill_10 * 10;
 
-  bill_5 = Math.floor(remainingAmount/5)
-  remainingAmount = remainingAmount - bill_5 * 5;
+  bill_5 = Math.floor(remainingAmount/5);
 
   return {
     '10': bill_10,
