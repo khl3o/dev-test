@@ -15,7 +15,7 @@ const getChange = (amount) => {
 
   remainingAmount = remainingAmount - bill_2 * 2;
 
-  // once we have a multiple of 5, get the best combinaison of 10/5
+  // once we have a multiple of 5, get the best combination of 10/5
 
   bill_10 = Math.floor(remainingAmount/10);
   remainingAmount = remainingAmount - bill_10 * 10;
