@@ -4,6 +4,8 @@ const getChange = (amount) => {
     return null;
 
   let remainingAmount = amount;
+  let bill_10 = 0;
+  let bill_5 = 0;
   let bill_2 = 0;
 
   // remove 2 by 2 until the remaining amount is a multiple of 5
